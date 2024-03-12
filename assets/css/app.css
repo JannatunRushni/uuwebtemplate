@@ -5766,7 +5766,7 @@ body.sal-disabled [data-sal|='flip'] {
 .about-content .features-list li:before {
     content: "\e913";
     font-family: 'icomoon';
-    color: var(--color-tertiary);
+    color: #0b499d;
     font-size: 19px;
     position: absolute;
     left: 0;
@@ -30237,7 +30237,7 @@ body .tpd-size-medium .tpd-content {
     right: 0;
     left: 0;
     z-index: 99;
-    background-color: var(--color-white);
+    background-color: #0b499d;
     -webkit-animation: headerSticky .95s ease forwards;
     animation: headerSticky .95s ease forwards;
 }
@@ -30297,7 +30297,8 @@ body .tpd-size-medium .tpd-content {
 }
 
 .edu-header .header-brand .logo {
-    margin-right: 40px;
+    margin-left: -30px;
+    margin-right: 20px;
 }
 
 @media only screen and (max-width: 575px) {
@@ -30459,7 +30460,7 @@ body .tpd-size-medium .tpd-content {
 --------------------------*/
 .header-style-2 .header-mainmenu .header-right {
     position: relative;
-    padding-left: 50px;
+    /*padding-left: 50px;*/
     margin-left: 22px;
 }
 
@@ -30474,7 +30475,7 @@ body .tpd-size-medium .tpd-content {
     content: "";
     height: 40px;
     width: 2px;
-    background-color: #f2f2f2;
+   
     position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
@@ -30487,7 +30488,7 @@ body .tpd-size-medium .tpd-content {
     -webkit-box-pack: end;
     -webkit-justify-content: flex-end;
     -ms-flex-pack: end;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 .header-style-2 .header-action {
@@ -30527,6 +30528,7 @@ body .tpd-size-medium .tpd-content {
 
 .header-style-2 .header-top .header-info li a {
     color: #0b499d;
+    font-weight: 600;
 }
 
 .header-style-2 .header-top .header-info li a:hover {
@@ -31168,7 +31170,7 @@ body .tpd-size-medium .tpd-content {
 }
 
 .mainmenu-nav .mainmenu li.has-droupdown .submenu {
-    min-width: 270px;
+    min-width: 330px;
     height: auto;
     position: absolute;
     top: 90%;
@@ -31432,7 +31434,7 @@ body .tpd-size-medium .tpd-content {
 }
 
 .header-top .header-top-left {
-    margin-right: 30px;
+    margin-right: 10px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -31730,7 +31732,7 @@ body .tpd-size-medium .tpd-content {
     background-color: transparent;
     border: none;
     padding: 0;
-    color: var(--color-heading);
+    color: #fff;
     font-size: 15px;
     line-height: 1;
     -webkit-transition: var(--transition);
@@ -32254,6 +32256,7 @@ body .tpd-size-medium .tpd-content {
 .edu-footer .information-list li span {
     font-weight: 500;
     margin-right: 5px;
+    color: #000;
 }
 
 .edu-footer .information-list li a {
@@ -32871,7 +32874,7 @@ body .tpd-size-medium .tpd-content {
 }
 
 .edu-footer .copyright-area a {
-    color: #ffff;
+    color: #000;
 
 }
 
@@ -34700,6 +34703,7 @@ blockquote .author {
 
 .gap-bottom-equal {
     padding-bottom: 120px;
+    padding-top: 90px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
