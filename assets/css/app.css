@@ -72,8 +72,8 @@
     --transition: 0.3s;
     --transition-2: 0.5s;
     --transition-transform: transform .65s cubic-bezier(.23,1,.32,1);
-    --font-primary: 'Poppins', sans-serif;
-    --font-secondary: 'Spartan', sans-serif;
+    --font-primary: 'AvenirNextLTPro-Regular',sans-serif;
+    --font-secondary: 'AvenirNextLTPro-Regular',sans-serif,Helvetica;
     --font-icomoon: 'icomoon';
     --font-size-b1: 15px;
     --font-size-b2: 13px;
@@ -1290,7 +1290,7 @@ body {
     line-height: var(--line-height-b1);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: var(--font-primary);
+    font-family: AvenirNextLTPro-Regular,sans-serif;
     color: var(--color-body);
     font-weight: 400;
     background-color: white;
@@ -3773,7 +3773,7 @@ button.btn-transparent {
     font-weight: 600;
     font-size: 18px;
     line-height: 28px;
-    color: var(--color-textSecondary);
+    color: black;
     display: inline-block;
     position: relative;
     -webkit-transition: 0.3s;
@@ -3797,9 +3797,10 @@ a.btn-transparent::after,
 a.btn-transparent i,
   button.btn-transparent i {
     padding-left: 6px;
-    top: -1px;
+    top: 2px;
     position: relative;
-    font-size: 12px;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 a.btn-transparent:hover,
@@ -9326,15 +9327,15 @@ body.sal-disabled [data-sal|='flip'] {
 }
 
 .edu-counterup .count-number.secondary-color {
-    color: #ff5b5c;
+    color: var(--color-primary);
 }
 
 .edu-counterup .count-number.extra02-color {
-    color: var(--color-extra02);
+    color: var(--color-primary);
 }
 
 .edu-counterup .count-number.extra05-color {
-    color: var(--color-extra05);
+    color: var(--color-primary);
 }
 
 .edu-counterup .title {
@@ -15064,6 +15065,7 @@ body .tpd-size-medium .tpd-content {
     margin-bottom: 15px;
     -webkit-transition: var(--transition);
     transition: var(--transition);
+    margin-top: 10px;
 }
 
 .features-box .content .title span {
@@ -16451,7 +16453,7 @@ body .tpd-size-medium .tpd-content {
 }
 
 .hero-banner.hero-style-3 .thumbnail-bg-content .banner-content {
-    max-width: 560px;
+    max-width: 660px;
     position: absolute;
     left: 100px;
     bottom: 280px;
@@ -23269,12 +23271,12 @@ body .tpd-size-medium .tpd-content {
     z-index: -1;
     bottom: 0;
     left: 0;
-    -webkit-transition: var(--transition);
-    transition: var(--transition);
+    /*-webkit-transition: var(--transition);
+    transition: var(--transition);*/
     border-radius: 50%;
     border: 1px solid rgba(255, 255, 255, 0.3);
-    -webkit-animation: ripple 2s linear infinite;
-    animation: ripple 2s linear infinite;
+    /*-webkit-animation: ripple 2s linear infinite;
+    animation: ripple 2s linear infinite;*/
 }
 
 .video-banner-content .video-play-btn:after {
@@ -23286,12 +23288,12 @@ body .tpd-size-medium .tpd-content {
     z-index: -1;
     bottom: 0;
     left: 0;
-    -webkit-transition: var(--transition);
-    transition: var(--transition);
+    /*-webkit-transition: var(--transition);
+    transition: var(--transition);*/
     border-radius: 50%;
     border: 1px solid rgba(255, 255, 255, 0.3);
-    -webkit-animation: ripple 2s linear 1s infinite;
-    animation: ripple 2s linear 1s infinite;
+   /* -webkit-animation: ripple 2s linear 1s infinite;
+    animation: ripple 2s linear 1s infinite;*/
 }
 
 .video-banner-content .title {
@@ -31117,8 +31119,8 @@ body .tpd-size-medium .tpd-content {
 
 .mainmenu-nav .mainmenu > li > a {
     color: #fff;
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 17px;
+    font-weight: 500;
     padding: 0 26px;
     display: block;
     height: 90px;
@@ -31153,7 +31155,7 @@ body .tpd-size-medium .tpd-content {
     position: relative;
 }
 
-.mainmenu-nav .mainmenu li.has-droupdown > a::after {
+/*.mainmenu-nav .mainmenu li.has-droupdown > a::after {
     position: absolute;
     content: "\e91e";
     font-family: 'icomoon';
@@ -31161,7 +31163,7 @@ body .tpd-size-medium .tpd-content {
     top: 0;
     font-size: 6px;
     font-weight: 400;
-}
+}*/
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .mainmenu-nav .mainmenu li.has-droupdown > a::after {
@@ -31192,7 +31194,7 @@ body .tpd-size-medium .tpd-content {
 }
 
 .mainmenu-nav .mainmenu li.has-droupdown .submenu li a {
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 600;
     padding: 5px 30px;
     display: block;
@@ -32254,7 +32256,7 @@ body .tpd-size-medium .tpd-content {
 }
 
 .edu-footer .information-list li span {
-    font-weight: 500;
+    font-weight: bold;
     margin-right: 5px;
     color: #000;
 }
@@ -32893,6 +32895,7 @@ body .tpd-size-medium .tpd-content {
 --------------------------*/
 .copyright-area {
     padding: 32px 0;
+    background-color: #F0F4F5;
 }
 
 .copyright-area p {
@@ -33229,7 +33232,7 @@ body .tpd-size-medium .tpd-content {
     width: 80px;
     height: 80px;
     background: var(--color-primary);
-    border-radius: 60px 60px 14px 60px;
+    border-radius: 60px 60px 60px 60px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;

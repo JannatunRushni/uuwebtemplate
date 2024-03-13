@@ -1,0 +1,273 @@
+Thank you for contacting Bluehost. By continuing you agree to our privacy policy
+ https://newfold.com/privacy-center
+
+Do you require support with existing products or are you looking to renew/purchase services?
+
+Support for Existing Products
+
+My site uttarauniversity.edu.bd shows ip Shared IP Address
+50.87.253.89 on cpanel but while i made nslookup to see the dns there i found 66.235.200.147
+
+
+Thats not a big deal. But here i found error on my site which is  uttarauniversity.edu.bd uses an unsupported protocol.
+ERR_SSL_VERSION_OR_CIPHER_MISMATCH
+
+
+This site is a educational site which has so much traffic i need you to solve it quickly. Also this hampered to my seo and search console
+
+
+
+Also i cant access it without ssl or if i staging this to open my wordpress or cpanel shows error
+
+
+Sure!
+
+10:47 AM
+You said
+ok make sure the problem has been solved
+
+10:45 AM
+Business said
+No worries! I have priority and you will get the email as soon as possible.
+
+10:45 AM
+You said
+ok i noted the reference number for further conversation. Please resolve this issue as early as possible because this website traffic is huge so it need solve earlier
+
+10:44 AM
+Business said
+Thank you for being on hold. To speed things up here, 
+I will have to ask a member of our team who specializes in getting the account verified 
+to take care of this for you. Your reference number is  
+(E-12978)
+
+Normally, tickets are answered within 24 hours in an email, and most cases are resolved within that timeframe as well. If our team needs further information or additional time to investigate a more complex issue, they will convey this to you via email. We appreciate your patience.
+
+10:42 AM
+You said
+please be first
+
+10:41 AM
+Business said
+Sure! Please be on hold for 2 - 3 minutes and I'm escalating.
+
+10:41 AM
+You said
+Any reference id?
+
+10:40 AM
+You said
+ok what else! Then make sure the problem not also be solved but also be killed
+
+10:39 AM
+Business said
+is that ok
+?
+
+10:39 AM
+Business said
+I'm really sorry and we don't have access to back end since we are front end supporters and I'll add priority on this case and make sure it resolves as soon as possibe.
+
+10:39 AM
+You said
+Can you make it earlier? I need a rugged solution
+
+10:38 AM
+You said
+but this taking much long time, how i use my site then
+
+10:37 AM
+Business said
+They have to repush the DNS from back end.
+
+10:37 AM
+Business said
+Looks like and it is reverting to:66.235.200.147 and so I need to escalate to our admin team and once I escalate you will get an update within  24 - 48 hours through email.
+
+10:36 AM
+You said
+Your team says 8,10,24,48 hrs blah blah. But i am just wasting time. 
+I want to report that . Check if others problem but make it fixed earlist
+
+10:35 AM
+You said
+Look you changed or i changed it return back  to that ip  auto. This is highly traffic site not joke man
+
+10:34 AM
+Business said
+Please let me know if A record changed previously?
+
+10:33 AM
+You said
+in 1 sec  it changed. Make it fixed and check if other problem or not
+
+10:31 AM
+You said
+C:\Users\Jannatun Rushni>nslookup uttarauniversity.edu.bd
+Server:  dns.google
+Address:  8.8.8.8
+
+Non-authoritative answer:
+Name:    uttarauniversity.edu.bd
+Address:  50.87.253.89
+
+
+C:\Users\Jannatun Rushni>nslookup uttarauniversity.edu.bd
+Server:  dns.google
+Address:  8.8.8.8
+
+Non-authoritative answer:
+Name:    uttarauniversity.edu.bd
+Address:  66.235.200.147
+
+see my result
+
+10:31 AM
+Business said
+I'm really sorry and I have updated it in the DNS editor and you can check by going to DNS zone editor.
+
+10:30 AM
+You said
+C:\Users\Jannatun Rushni>nslookup uttarauniversity.edu.bd
+Server:  dns.google
+Address:  8.8.8.8
+
+Non-authoritative answer:
+Name:    uttarauniversity.edu.bd
+Address:  50.87.253.89
+
+
+C:\Users\Jannatun Rushni>nslookup uttarauniversity.edu.bd
+Server:  dns.google
+Address:  8.8.8.8
+
+Non-authoritative answer:
+Name:    uttarauniversity.edu.bd
+Address:  66.235.200.147
+
+see my result
+
+10:30 AM
+You said
+you may check this it showing only one result to this others are not changed on the other hand it sometimes shows not changed if i refresh then i shows .. Man this all are joke
+
+10:29 AM
+Business said
+It is already propagating you can check for certain location it is showing: 50.87.253.89
+
+10:28 AM
+You said
+I need immediate solution
+
+10:27 AM
+Business said
+https://dnschecker.org/#A/uttarauniversity.edu.bd
+
+10:27 AM
+Business said
+No worries! you could see that from this link and it is already working.
+
+10:27 AM
+You said
+Man your support team saying it from the beginning of 3 & half but not working
+
+10:27 AM
+Business said
+After that SSL will be install automatically once A record point to our IP.
+
+10:27 AM
+Business said
+Sure thing and please note that once I update A record it takes 0 - 8 hours for the propagation.
+
+10:26 AM
+You said
+are u working?
+
+10:26 AM
+You said
+update it
+
+10:25 AM
+Business said
+Thank you for being on hold. I have successfully checked A record and it is pointing to: 66.235.200.147 and  need to update A record to your BlueHost account IP which is:50.87.253.89
+
+10:25 AM
+You said
+i want this to fix now or within day. It's nearly 3days we are facing the issue but no solution. Fixed it up else
+
+10:23 AM
+You said
+Man i'm bore
+
+10:20 AM
+Business said
+I'm sorry to have kept you waiting for way too long. I'm still working on it. I will be back in 5-6 minutes to give you an update.
+
+10:19 AM
+You said
+5 minutes over
+
+10:17 AM
+You said
+are you there?
+
+10:16 AM
+You said
+Solve it na
+
+10:13 AM
+Business said
+Thank you for authenticating. I will have to put you on hold for 2-3 minutes to check what's causing the error.
+
+10:12 AM
+You said
+202419
+
+keep it secure :🤣
+
+10:11 AM
+Business said
+Thank you for the email address. In order for us to maintain high security standards on your account, please provide the security PIN and authenticate.
+
+10:10 AM
+You said
+Where are you man!
+
+10:09 AM
+You said
+uttarauniversityit@gmail.com
+
+10:09 AM
+Business said
+Could you please provide me the registered email address of the hosting account?
+
+10:09 AM
+Business said
+I understand it is important for your website to be up and running. I'll definitely assist you with this.
+
+10:09 AM
+You said
+Are you there ? I am gonna rate u
+
+10:08 AM
+You said
+Quick Connect
+SSH Keys
+
+lhptmgmy@50.87.253.89
+
+
+
+also in quick connet Quick Connect
+But dns shows another ip
+
+10:08 AM
+You said
+
+
+**************************************
+If you face the same issue, please provide them the this interaction ID, I'll add the necessary notes to escalate the case for you immediately. I-13078430
+
+
+
+
