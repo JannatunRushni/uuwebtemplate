@@ -1581,7 +1581,7 @@ ul li {
     line-height: var(--line-height-b1);
     margin-top: 10px;
     margin-bottom: 10px;
-    color: var(--color-body);
+    color: #000;
 }
 
 ul li a {
@@ -3530,7 +3530,6 @@ Scroll Down Button Animation
 
 .breadcrumb-style-5 {
     padding: 0;
-    padding-top: 18px;
     background: -webkit-linear-gradient(right, #f5f1eb 0%, rgba(245, 241, 235, 0.3) 100%);
     background: linear-gradient(-90deg, #f5f1eb 0%, rgba(245, 241, 235, 0.3) 100%);
 }
@@ -3540,7 +3539,7 @@ Scroll Down Button Animation
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
     justify-content: flex-start;
-    margin: -10px 0;
+    margin: 0px 0;
 }
 
 .breadcrumb-style-6 {
@@ -32906,7 +32905,7 @@ body .tpd-size-medium .tpd-content {
 }
 
 .footer-lighten .copyright-area {
-    background-color: #ebeff0;
+    /*background-color: #ebeff0;*/
 }
 
 .footer-lighten .copyright-area p {
@@ -34608,7 +34607,7 @@ blockquote .author {
     Spacing
 -------------------------*/
 .edu-section-gap {
-    padding: 115px 0 120px;
+    padding: 25px 0 0;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -42044,4 +42043,10 @@ html[dir="rtl"] .swiper-testimonial-slider-wrapper .swiper-slide.swiper-slide-vi
     bottom: 0;
     right: 0;
     z-index: 1;
+}
+
+.brand-grid img{
+    object-fit: contain;
+    width: auto;
+    height: 120px;
 }
