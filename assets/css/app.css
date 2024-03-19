@@ -33162,12 +33162,12 @@ body .tpd-size-medium .tpd-content {
 }
 
 .edu-blog.blog-style-2 {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
-.edu-blog.blog-style-2:last-child {
+/*.edu-blog.blog-style-2:last-child {
     margin-bottom: 0;
-}
+}*/
 
 .edu-blog.blog-style-2 .inner {
     display: -webkit-box;
@@ -33228,7 +33228,7 @@ body .tpd-size-medium .tpd-content {
     width: 80px;
     height: 80px;
     background: var(--color-primary);
-    border-radius: 60px 60px 60px 60px;
+    /*border-radius: 60px 60px 60px 60px;*/
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -33296,13 +33296,14 @@ body .tpd-size-medium .tpd-content {
 }
 
 .edu-blog.blog-style-2.first-large-blog .content .blog-date {
-    top: 6px;
+    top: 5px;
     right: auto;
     left: 0;
 }
 
 .edu-blog.blog-style-2.first-large-blog .content .title {
     margin-bottom: 15px;
+    font-size: 16px;
 }
 
 .edu-blog.blog-style-2.first-large-blog .content .blog-meta {
