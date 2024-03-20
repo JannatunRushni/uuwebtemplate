@@ -23311,7 +23311,7 @@ body .tpd-size-medium .tpd-content {
 
 @media only screen and (max-width: 479px) {
     .video-area-3 {
-        margin-top: -75px;
+        margin-top: 100px;
     }
 }
 
@@ -33162,7 +33162,7 @@ body .tpd-size-medium .tpd-content {
 }
 
 .edu-blog.blog-style-2 {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 /*.edu-blog.blog-style-2:last-child {
