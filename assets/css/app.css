@@ -75,7 +75,7 @@
     --font-primary: 'AvenirNextLTPro-Regular',sans-serif;
     --font-secondary: 'AvenirNextLTPro-Regular',sans-serif,Helvetica;
     --font-icomoon: 'icomoon';
-    --font-size-b1: 15px;
+    --font-size-b1: 16px;
     --font-size-b2: 13px;
     --line-height-b1: 1.73;
     --line-height-b2: 1.85;
@@ -1587,7 +1587,7 @@ ul li {
 
 ul li a {
     text-decoration: none;
-    color: var(--color-body);
+    color: #111212;
     -webkit-transition: var(--transition);
     transition: var(--transition);
 }
@@ -5494,7 +5494,6 @@ body.sal-disabled [data-sal|='flip'] {
     line-height: 46px;
     display: inline-block;
     font-size: 16px;
-    color: var(--color-body);
     -webkit-transition: 0.3s;
     transition: 0.3s;
     text-align: center;
@@ -9208,7 +9207,7 @@ body.sal-disabled [data-sal|='flip'] {
     box-shadow: var(--shadow-darker);
     background-color: var(--color-white);
     border-radius: 5px;
-    margin-bottom: -80px;
+    margin-bottom: 50px;
     position: relative;
 }
 
@@ -9270,7 +9269,7 @@ body.sal-disabled [data-sal|='flip'] {
 }
 
 .contact-us-area {
-    padding: 120px 0 0;
+    padding: 25px 0 0;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -10070,7 +10069,7 @@ body.sal-disabled [data-sal|='flip'] {
 }
 
 .edu-course .content {
-    padding: 30px 20px 16px 30px;
+    padding: 30px 11px 24px 21px
 }
 
 .edu-course .content .course-level {
@@ -10611,6 +10610,7 @@ body.sal-disabled [data-sal|='flip'] {
 .edu-course.course-style-5 {
     background-color: var(--color-lighten04);
     border-radius: 4px;
+    box-shadow: 0px 10px 50px 0px rgba(26,46,85,0.1);
 }
 
 .edu-course.course-style-5 .thumbnail a:after {
@@ -11607,8 +11607,8 @@ body.sal-disabled [data-sal|='flip'] {
 }
 
 .edu-course-area.course-area-10 {
-    background: var(--cta-color-bg);
     overflow: hidden;
+    padding-bottom: 120px;
 }
 
 .edu-course-area.course-area-10 .shape-group li.shape-1 {
@@ -11695,6 +11695,7 @@ body.sal-disabled [data-sal|='flip'] {
     color: var(--color-heading);
     -webkit-transition: var(--transition);
     transition: var(--transition);
+    text-align: center;
 }
 
 .edu-course-area .course-style-10 .content .title a:hover {
@@ -17882,7 +17883,7 @@ body .tpd-size-medium .tpd-content {
   Privacy Policy Style
 ---------------------*/
 .privacy-policy-area {
-    padding: 120px 0 100px;
+    padding: 30px 0 100px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
